@@ -16,3 +16,13 @@ nav {
 	align-items: center;
 	background-color: $nav-background-color;
 }
+nav a {
+	padding: 0 0 $base-padding 0;
+	color: #333;
+	text-decoration: none;
+}
+nav a:hover,
+nav a:active,
+nav a:visited {
+	color: #000;
+}
