@@ -12,3 +12,4 @@ $find = array('><a','li');
 $replace = array('','a');
 echo str_replace( $find, $replace, $cleanermenu );
 ?>
+	<p>Test</p>
