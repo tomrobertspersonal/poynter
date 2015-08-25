@@ -1,5 +1,5 @@
 /* ===================
-   Scaffold
+   Nav
    ==================*/
 nav {
 	position: fixed;
@@ -10,5 +10,9 @@ nav {
 	width: $nav-width;
 	margin: 0;
 	padding: $base-padding;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	background-color: $nav-background-color;
 }
