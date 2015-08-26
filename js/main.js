@@ -1,6 +1,6 @@
 
 var options = {
-    horizontal: 1,
+    horizontal: true,
     itemNav: 'basic',
     speed: 300,
     mouseDragging: 1,
