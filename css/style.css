@@ -392,7 +392,8 @@ body {
   padding: 0; }
 
 .slidee li {
-  background-color: #444; }
+  background-color: #444;
+  padding: 15px; }
 
 header {
   height: 100%;
