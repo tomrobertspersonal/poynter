@@ -3,4 +3,4 @@
 			<button id="open-cover">
 				<i class="fa fa-angle-right"></i>
 			</button>
-		</header>	
+		</header>
