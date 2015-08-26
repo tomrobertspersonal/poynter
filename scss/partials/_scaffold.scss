@@ -17,3 +17,29 @@ body {
 	padding: 0 0 0 $nav-width;
 	background-color: #f7f7f7;
 }
+.wrapper {
+	height: 100%;
+	width: 100%;
+	padding: $base-padding;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+header {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	background-color: #444;
+	background-size: cover;
+	background-position: center center;
+}
+.single header {
+	position: fixed;
+	top: $base-padding;
+	right: $base-padding;
+	bottom: $base-padding;
+	left: $base-padding;
+	z-index: 1000;
+}
