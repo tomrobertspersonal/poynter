@@ -381,7 +381,6 @@ body {
   overflow-x: scroll; }
 
 .home .wrapper {
-  min-width: 100%;
   overflow-y: hidden;
   overflow-x: scroll;
   white-space: nowrap; }
