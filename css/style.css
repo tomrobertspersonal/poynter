@@ -411,6 +411,9 @@ header {
   background-size: cover;
   background-position: center center; }
 
+.home header {
+  display: inine-block; }
+
 .single header {
   position: fixed;
   top: 15px;
