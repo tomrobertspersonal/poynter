@@ -377,14 +377,22 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
-  padding: 15px;
-  overflow-y: hidden;
-  overflow-x: scroll; }
+  padding: 15px; }
 
-.home .wrapper {
-  overflow-y: hidden;
-  overflow-x: scroll;
-  white-space: nowrap; }
+.frame {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.slidee, .slidee li {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.slidee li {
+  background-color: #444; }
 
 header {
   height: 100%;
@@ -411,17 +419,6 @@ header {
   background-color: #444;
   background-size: cover;
   background-position: center center; }
-
-.home header {
-  display: inine-block; }
-
-.single header {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  z-index: 1000; }
 
 article {
   height: 100%;

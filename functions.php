@@ -156,6 +156,9 @@ function poynter_scripts() {
 	// Load MouseWheel js.
 	wp_enqueue_script( 'poynter-mousewheel-script', get_template_directory_uri() . '/js/vendor/mousewheel.min.js', array('jquery'), false, true );
 
+	// Load Sly js.
+	wp_enqueue_script( 'poynter-main-script', get_template_directory_uri() . '/js/vendor/sly.min.js', array('jquery'), false, true );
+
 	// Load Theme specific js.
 	wp_enqueue_script( 'poynter-main-script', get_template_directory_uri() . '/js/main.js', array('jquery'), false, true );
 
