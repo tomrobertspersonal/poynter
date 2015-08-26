@@ -380,6 +380,9 @@ body {
   overflow-y: hidden;
   overflow-x: scroll; }
 
+.home .wrapper {
+  min-width: 100%; }
+
 header {
   height: 100%;
   width: 100%;
@@ -389,11 +392,15 @@ header {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -424,7 +431,9 @@ article {
    ==================*/
 header h1 a {
   color: #fff;
-  text-decoration: none; }
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400; }
 
 button {
   background-color: transparent;

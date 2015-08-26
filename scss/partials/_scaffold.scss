@@ -25,13 +25,17 @@ body {
 	overflow-y: hidden;
 	overflow-x: scroll;
 }
+.home .wrapper {
+	min-width: 100%;
+}
 header {
 	height: 100%;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	background-color: #444;
 	background-size: cover;
