@@ -379,6 +379,9 @@ body {
   margin: 0;
   padding: 15px; }
 
+.home .wrapper {
+  padding: 0; }
+
 .frame {
   height: 100%;
   width: 100%;
