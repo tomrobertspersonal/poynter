@@ -45,3 +45,10 @@ header {
 	left: $base-padding;
 	z-index: 1000;
 }
+article {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	column-count: 2;
+}
