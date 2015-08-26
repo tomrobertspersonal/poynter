@@ -5,4 +5,5 @@
 				<i class="fa fa-angle-right"></i>
 			</button>
 		</header>	
+	<?php endwhile; endif; ?>
 <?php get_footer(); ?>
